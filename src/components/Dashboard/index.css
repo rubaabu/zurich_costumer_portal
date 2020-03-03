@@ -1,0 +1,67 @@
+.dashboard {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.background {
+    background: rgba(180, 146, 34, 0.404);
+}
+
+.gray {
+    padding: 2rem 1rem;
+    background-image: url("../../img/bg/aurelien-wild-spot-sx567MsyF7M-unsplash\ 3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.dashboard h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.layer {
+    background-color: rgba(128, 128, 128, 0.411);
+}
+.dashboard h3 {
+    text-align: left;
+    margin: 2.5rem 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.dashboard p {
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.betreuer {
+    background-color: #FFF;
+    border-radius: 4px;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.betreuer p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: .5rem;
+}
+
+.betreuer h4 {
+    font-size: 18px;
+}
+
+.betreuer .icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.betreuer .icon {
+    font-size: 45px;
+    width: 45px;
+    height: 45px;
+}

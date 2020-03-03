@@ -1,0 +1,82 @@
+
+.login-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 64px;
+   padding-bottom: 32px;
+
+ }
+ 
+ .login-title {
+   font-family: frutiger65_bold, Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 40px;
+   margin-top: 14px;
+ }
+ 
+ .login-body {
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 27px;
+   margin-left: 34px;
+   margin-right: 31px;
+   margin-bottom: 0;
+   text-align: center !important;
+ }
+ 
+ .login-input {
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+ }
+
+.Kdnr,
+.password {
+  margin-left: 32px;
+  margin-right: 31px;
+  margin-top: 24px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: solid 1px #dadada;
+}
+
+.password-input {
+  border: 0;
+  padding: 0;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox {
+  margin-top: 18.49px;
+  margin-left: 35.49px !important;
+}
+
+.checkbox__label {
+   z-index: -1;
+}
+
+.anmelden {
+  width: 163px;
+  border-radius: 5px;
+  align-self: center;
+  text-align: center !important;
+}
+
+.register {
+  margin-top: 29px;
+}
+
+.PW-vergessen {
+  margin-top: 58px;
+}

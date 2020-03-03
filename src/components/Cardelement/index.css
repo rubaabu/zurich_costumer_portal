@@ -1,0 +1,116 @@
+
+/*SCHADEN LIST--------------------*/
+.schaden-list {
+  border: 0.5px solid #dadada;
+  border-radius: 5px;
+  margin-top: 25px;
+  padding: 0 1rem 0 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.schaden-title-container {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.motorIcon {
+  font-size: 30px !important;
+  height: 30px !important;
+  width: 30px !important;
+  margin-right: 16px;
+  line-height: 0;
+  margin-top: 5px;
+}
+
+.schaden-title {
+  margin-left: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  color: #000000;
+}
+.group-list {
+  justify-content: center ;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  table-layout: fixed;
+  align-items: center;
+
+}
+
+.group-list table {
+  border-collapse: collapse;
+}
+.group-list table td {
+  border: 0.5px solid #dadada;
+}
+.group-list table tr:first-child td {
+  border-top: 0;
+}
+.group-list table tr td:first-child {
+  border-left: 0;
+}
+.group-list table tr:last-child td {
+  border-bottom: 0;
+}
+.group-list table tr td:last-child {
+  border-right: 0;
+}
+
+.group-list table .tr-list {
+  margin-right: 600px;
+}
+.first-row {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.secd-row {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.group-list table tr td p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+}
+group-list table tr td {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+
+.schaden-status {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.schaden-status .ofn {
+  font-weight: bolder;
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+.arrow-container {
+  justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+td span:first-of-type {
+  color:  #000066;
+  font-size: 14px;
+}
+
+table {
+  line-height: 1.5em;
+}

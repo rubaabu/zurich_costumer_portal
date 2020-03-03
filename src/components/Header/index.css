@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+  
+  .logo--small {
+    margin-left: 18.2px;
+  }
+
+  .header-icons {
+    display: flex;
+    margin-right: 40px;
+  }
+
+  .header-icons .icon--search {
+    margin-right: 32px;
+  }
+
+  /* Animation menu slide in */
+
+  nav {
+    animation-name: slide;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform: translate(0, -100%)
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translate(0, -100%);
+      opacity:.1
+    }
+    100% {
+      transform: translate(0, 0);
+      opacity:1
+    }
+  }

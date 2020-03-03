@@ -1,0 +1,233 @@
+.dtl-Schaden-Container{
+    margin-top: 63.5px;
+
+}
+
+.dtl-Schaden-Header{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.dtl-Schaden-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23px;
+    color:#4c433d !important;
+}
+
+.dtl-Schaden-heading h2 { 
+    font-weight: bold !important;
+    font-size: 24px !important;
+    margin-bottom: 0;
+}
+
+.dtl-Schaden-heading i {
+    font-size: 30px !important;
+    margin-right: 13px;
+    height: 30px;
+    width: 30px; 
+}
+
+.dtl-Schaden-Header p{
+    font-size: 16px !important;
+}
+
+.dtl-Schaden-Body {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 2.5rem;
+}
+
+.dtl-Schaden-Body h3 {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-bottom: 17.5px;
+}
+
+.dtl-Schaden-Filter {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #4066B3;
+    border-radius: 20px;
+}
+.dtl-Schaden-Filter div {
+    width: 50%;
+    height: 36px;
+    text-align: center;
+}
+
+.dtl-Schaden-Filter p {
+    margin-bottom: 0 !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dtl-active {
+    background-color: #4066B3;
+    border-radius: 20px;
+    width: 50% !important;
+    height: 37px !important;
+    color: white;
+}
+
+.dtl-matrix {
+    margin-top: 24px;  
+    border-radius: 4px;
+    border: 1px solid #DADADA;    
+    padding: 17px;
+}
+
+.dtl-matrix-table {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    line-height: 1.5em;
+}
+
+.dtl-matrix-col {
+    width: 50%;
+}
+
+.dtl-matrix-col:nth-of-type(2n) {
+    padding-left: 31px;
+    border-left: 1px solid #DADADA;
+}
+.element-label{
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+    color: #000066;
+}
+
+.element-content {
+    font-size: 16px !important;
+}
+
+.dtl-matrix-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #DADADA;
+    margin-top: 17px;
+}
+
+.dtl-matrix-footer p {
+    margin-bottom: 0;
+    font-size: 14px !important;
+    padding-top: 10px;
+}
+
+.status {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.verlauf h3 {
+    margin-top: 32px;
+}
+
+.back {
+    font-size: 16px;
+    text-decoration-line: underline;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+/* Contact */
+
+.contact {
+    padding-top: 40px;
+}
+
+.contact-heading h3 {
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+.contact-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-body i {
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.contact-dtl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.contact-dtl p {
+    margin-bottom: 0;
+    font-size: 14px !important;
+}
+
+.contact-btn-container {
+    padding: 32px;
+}
+.contact-btn {
+    margin: 0 auto;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px !important;
+    max-width: 12rem !important;
+    border-radius: 4px;
+}
+
+.contact-btn p {
+    margin: 0 !important;
+    font-size: 16px !important;
+}
+
+.contact-btn i {
+    font-size: 25px !important;
+    height: 25px;
+    width: 25px;
+}
+
+/* Document */
+.download {
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+
+}
+
+.download-body {
+    display: flex;  
+}
+.download-body p {
+    margin: 0;
+    padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.download i {
+    font-size: 28px;
+    height: 28px;
+    width: 28px;
+}
+
+.dtl-Schaden-Body h3 {
+    font-family: frutiger55_roman !important;
+    color: #4c433d;
+}
